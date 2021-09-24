@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# 🎷 Bandstory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
 
-## Available Scripts
+[Bandstory](https://bandstory.netlify.app/) is a website I created to document my performances from high school band (I played the saxophone!). I have a strong attachment to band, and I would even say that I wouldn't be the person I am today if not for band.
 
-In the project directory, you can run:
+I have always wanted a way to share my band performances with others, but keeping the files on Google Drive was eating away at my storage, and YouTube would copy strike me. In addition to this, I love listening to our high school's past recordings, even if they weren't the best. Thus, I created Bandstory to gather all our concert pieces in one place!
 
-### `npm start`
+![Image of Bandstory](https://media.discordapp.net/attachments/535232819853656114/890873458769149992/bandstory.png?width=1223&height=573)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Things I Learnt
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This was my first solo endeavour with React.js, and I now feel more comfortable with the framework! I did a lot of searching on Stack Overflow, asked friends for help, and got frustrated for no reason (it turns out I was reading the error message wrong). I experimented a lot and familiarized myself with the syntax (apparently it's not necessary to use semi-colons in Javascript!).
 
-### `npm test`
+In the past, my websites would break when I resized my screen, because I would use measurements in pixels and base my CSS around my laptop viewport. However, while working on Bandstory, I used @media to set new style guidelines for smaller screen sizes! Now — for the first time — my website is responsive, and even works perfectly on mobile :)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Mobile image of Bandstory](https://media.discordapp.net/attachments/535232819853656114/890875002746966027/image0.png?width=294&height=613)
 
-### `npm run build`
+## Next Steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As of right now, the audio controls are minimal — you click a piece title to play, and click again to stop it. In the future, I'd like to design a sort of audio player to go at the bottom of the website, like the ones I used to see on Tumblr blogs in 2015. It should include more functions such as volume, pause, manual scrubbing to change your position in the song, etc.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Additionally, I have a ton of Javascript files in this project (more precisely, one for every different piece, plus some extras). I'm not sure if there's a way to cut that number down and combine files/information, but if I ever discover it, I'll be sure to come back and update this.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thanks for reading!
