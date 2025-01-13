@@ -6,7 +6,7 @@
 
 I have always wanted a way to share my band performances with others, but keeping the files on Google Drive was eating away at my storage, and YouTube would copy strike me. In addition to this, I love listening to our high school's past recordings, even if they weren't the best. Thus, I created Bandstory to gather all our concert pieces in one place!
 
-![Image of Bandstory](https://media.discordapp.net/attachments/535232819853656114/890873458769149992/bandstory.png?width=1223&height=573)
+<img width="800" alt="Image of Bandstory" src="https://github.com/user-attachments/assets/d8f1b9f5-cdf8-4b05-b2c0-9c3cdf4fbe21" />
 
 ## Things I Learnt
 
@@ -14,7 +14,7 @@ This was my first solo endeavour with React.js, and I now feel more comfortable 
 
 In the past, my websites would break when I resized my screen, because I would use measurements in pixels and base my CSS around my laptop viewport. However, while working on Bandstory, I used @media to set new style guidelines for smaller screen sizes! Now — for the first time — my website is responsive, and even works perfectly on mobile :)
 
-![Mobile image of Bandstory](https://media.discordapp.net/attachments/535232819853656114/890875002746966027/image0.png?width=294&height=613)
+<img width="294" alt="Mobile image of Bandstory" src="https://github.com/user-attachments/assets/dcb5ee54-7079-4c05-b455-2009c20f422a" />
 
 ## Next Steps
 
